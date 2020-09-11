@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Main Test Suite" duration-ms="17218" started-at="2020-09-10T16:44:59 IST" finished-at="2020-09-10T16:45:16 IST">
+    <groups>
+    </groups>
+    <test name="Grid chrome Test" duration-ms="17218" started-at="2020-09-10T16:44:59 IST" finished-at="2020-09-10T16:45:16 IST">
+      <class name="ExtentReport.ExtentReports.Chrome">
+        <test-method status="PASS" signature="sampleTest1()[pri:0, instance:ExtentReport.ExtentReports.Chrome@86be70a]" name="sampleTest1" duration-ms="17165" started-at="2020-09-10T16:44:59 IST" finished-at="2020-09-10T16:45:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest1 -->
+      </class> <!-- ExtentReport.ExtentReports.Chrome -->
+    </test> <!-- Grid chrome Test -->
+  </suite> <!-- Main Test Suite -->
+</testng-results>

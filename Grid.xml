@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Main Test Suite" parallel="tests" verbose="1">
+<!--     <test thread-count="5" name="Grid firefox Test">
+    <parameter name="BrowserType" value="firefox"/>
+        <classes>
+        <class name="ExtentReport.ExtentReports.Chrome"/>
+        </classes>
+    </test> -->
+    <test thread-count="5" name="Grid chrome Test">
+    <parameter name="chrome" value="chrome"/>
+        <classes>
+        <class name="ExtentReport.ExtentReports.Chrome"/>
+        </classes>
+    </test>
+</suite>
