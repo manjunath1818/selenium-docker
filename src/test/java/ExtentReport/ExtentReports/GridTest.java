@@ -11,9 +11,10 @@ import org.openqa.selenium.remote.BrowserType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.Test;
 
 public class GridTest {
-
+@Test
 	public static void main(String[] args) throws MalformedURLException, InterruptedException {
 
 		DesiredCapabilities dc = new DesiredCapabilities();
@@ -21,7 +22,7 @@ public class GridTest {
 		//Thread.sleep(20000);
 		dc.setBrowserName("chrome");
 		dc.setPlatform(Platform.LINUX);
-		WebDriver driver = new RemoteWebDriver(new URL("http://192.168.99.100:4444/wd/hub"), dc);
+		WebDriver driver = new RemoteWebDriver(new URL("https://hub-cloud.browserstack.com/wd/hub"), dc);
 		//Thread.sleep(20000);
 		driver.manage().window().maximize();
 		driver.get("http://google.com");
